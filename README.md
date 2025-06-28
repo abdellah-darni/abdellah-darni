@@ -29,4 +29,4 @@ Computer Science student passionate about software development. I enjoy building
 </p>
 
 ---
-📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/darni-abdellah-6683171ba/)
+📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/darni-abdellah/)
