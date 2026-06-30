@@ -20,6 +20,11 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 ### Latest posts
 
 <!-- BLOG-CARDS:START -->
+<table><tr>
+<td><a href="https://blog.darni.org/blog/observability/"><img src="assets/blog/card-1.png" width="250" alt="https://blog.darni.org/blog/observability/"/></a></td>
+<td><a href="https://blog.darni.org/blog/deepdame/"><img src="assets/blog/card-2.png" width="250" alt="https://blog.darni.org/blog/deepdame/"/></a></td>
+<td><a href="https://blog.darni.org/blog/architecting-modular-home-lab/"><img src="assets/blog/card-3.png" width="250" alt="https://blog.darni.org/blog/architecting-modular-home-lab/"/></a></td>
+</tr></table>
 <!-- BLOG-CARDS:END -->
 
 
