@@ -1,0 +1,35 @@
+name: Blog cards
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write 
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: |
+          sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
+          npm install @resvg/resvg-js@2.6.2
+
+      - name: Generate cards
+        run: node .github/scripts/generate-cards.mjs
+        env:
+          FEED_URL: https://blog.darni.org/rss.xml
+          SITE_LABEL: blog.darni.org
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # only stage generated output, never node_modules
+          git add assets README.md
+          git diff --quiet --cached || (git commit -m "chore: refresh blog cards" && git push)
