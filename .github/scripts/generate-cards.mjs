@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 
 // ---------- layout ----------
 const W = 260, H = 340, PAD = 18, HERO_H = 180, RADIUS = 14;
-const BG = '#0d0d0d';
+const BG = '#0d1117';
 const FONT = 'DejaVu Sans, sans-serif';
 
 // ---------- text helpers ----------
@@ -69,7 +69,7 @@ function buildCardSVG({ title, description, date, site, heroDataUri }) {
 <stop offset="1" stop-color="${BG}" stop-opacity="1"/>
 </linearGradient>
 <linearGradient id="noimg" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#1b1b1b"/><stop offset="1" stop-color="#0d0d0d"/>
+<stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
 </linearGradient>
 </defs>
 <g clip-path="url(#card)">
@@ -81,7 +81,7 @@ ${hero}
 <text x="${PAD}" y="${H - 18}" font-family="${FONT}" font-size="10" fill="#6b7280">${escapeXml(date || '')}</text>
 <text x="${W - PAD}" y="${H - 18}" text-anchor="end" font-family="${FONT}" font-size="10" fill="#6b7280">${escapeXml(site || '')}</text>
 </g>
-<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${RADIUS}" fill="none" stroke="#262626"/>
+<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${RADIUS}" fill="none" stroke="#30363d"/>
 </svg>`;
 }
 
