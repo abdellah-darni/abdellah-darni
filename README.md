@@ -19,11 +19,8 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 ### Latest posts
 
-<!-- BLOG-POST-LIST:START -->
-- [Instrument What You Can&#39;t See](https://blog.darni.org/blog/observability/)
-- [DeepDame: Two Semesters, Two Halves of a System](https://blog.darni.org/blog/deepdame/)
-- [Architecting a Modular Home Lab: A Systems Engineering Playground](https://blog.darni.org/blog/architecting-modular-home-lab/)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-CARDS:START -->
+<!-- BLOG-CARDS:END -->
 
 
 ### Stack
