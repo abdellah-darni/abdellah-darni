@@ -17,6 +17,12 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 * **[Homelab](https://github.com/abdellah-darni/home-lab)**: A Proxmox host serving my self-hosted stack as version-controlled Docker Compose behind a single Traefik v3 reverse proxy. Dual-provider routing pairs Docker label discovery with a watched file provider that brings non-Docker backends (Proxmox, a Jellyfin LXC) under the same TLS and middleware. Wildcard TLS via the Cloudflare DNS-01 challenge, a middleware chain enforcing LAN/Tailscale-only access with hardened security headers, and per-container capability drops and resource limits. Remote access over a Tailscale mesh, with a subnet-router LXC alongside per-VM clients. Writeup on the [blog](https://blog.darni.org/blog/architecting-modular-home-lab).
 
 
+### Latest posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+
 ### Stack
 
 [![My stack](https://skillicons.dev/icons?i=java,spring,c,postgres,mongodb,redis,docker,kubernetes,linux,bash)](https://skillicons.dev)
