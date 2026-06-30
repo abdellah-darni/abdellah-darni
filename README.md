@@ -32,6 +32,8 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 ### Stack
 
-[![My stack](https://skillicons.dev/icons?i=java,spring,c,postgres,mongodb,redis,docker,kubernetes,linux,bash)](https://skillicons.dev)
+[![My stack](https://skillicons.dev/icons?i=java,spring,c,postgres,mongodb,redis,docker,kubernetes,linux,bash,githubactions)](https://skillicons.dev)
 
-`Traefik` · `Proxmox` · `Tailscale` · `CI/CD`
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/traefik.svg" height="44" alt="Traefik" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/proxmox.svg" height="44" alt="Proxmox" />&nbsp;
+<img src="https://cdn.simpleicons.org/tailscale/white" height="38" alt="Tailscale" />&nbsp;
