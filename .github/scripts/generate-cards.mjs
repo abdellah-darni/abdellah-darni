@@ -145,10 +145,10 @@ async function fetchImageDataUri(url) {
 
 // ---------- readme ----------
 function rewriteReadme(readme, links, outDir) {
-  const cells = links
-    .map((href, i) => `<td><a href="${escapeXml(href)}"><img src="${outDir}/card-${i + 1}.png" width="250" alt="${escapeXml(href)}"/></a></td>`)
-    .join('\n');
-  const block = `<!-- BLOG-CARDS:START -->\n<table><tr>\n${cells}\n</tr></table>\n<!-- BLOG-CARDS:END -->`;
+  const cards = links
+    .map((href, i) => `<a href="${escapeXml(href)}"><img src="${outDir}/card-${i + 1}.png" width="250" alt="${escapeXml(href)}" /></a>`)
+    .join('\n&nbsp;\n');
+  const block = `<!-- BLOG-CARDS:START -->\n<p>\n${cards}\n</p>\n<!-- BLOG-CARDS:END -->`;
   const re = /<!-- BLOG-CARDS:START -->[\s\S]*?<!-- BLOG-CARDS:END -->/;
   if (!re.test(readme)) throw new Error('BLOG-CARDS markers not found in README');
   return readme.replace(re, block);
