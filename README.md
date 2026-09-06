@@ -21,11 +21,11 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 <!-- BLOG-CARDS:START -->
 <p>
-<a href="https://blog.darni.org/blog/observability/"><img src="assets/blog/card-1.png" width="250" alt="https://blog.darni.org/blog/observability/" /></a>
+<a href="https://blog.darni.org/blog/week-of-incidents/"><img src="assets/blog/card-1.png" width="250" alt="https://blog.darni.org/blog/week-of-incidents/" /></a>
 &nbsp;
-<a href="https://blog.darni.org/blog/deepdame/"><img src="assets/blog/card-2.png" width="250" alt="https://blog.darni.org/blog/deepdame/" /></a>
+<a href="https://blog.darni.org/blog/observability/"><img src="assets/blog/card-2.png" width="250" alt="https://blog.darni.org/blog/observability/" /></a>
 &nbsp;
-<a href="https://blog.darni.org/blog/architecting-modular-home-lab/"><img src="assets/blog/card-3.png" width="250" alt="https://blog.darni.org/blog/architecting-modular-home-lab/" /></a>
+<a href="https://blog.darni.org/blog/deepdame/"><img src="assets/blog/card-3.png" width="250" alt="https://blog.darni.org/blog/deepdame/" /></a>
 </p>
 <!-- BLOG-CARDS:END -->
 
