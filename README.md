@@ -14,6 +14,8 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 * **[ToDoist](https://github.com/abdellah-darni/ToDoist)**: A terminal task manager written in C. Multi-panel ncurses interface using the menu, form, and panel libraries, with a non-blocking input loop, a live clock, and terminal-resize handling. SQLite storage through the C API: multi-statement writes wrapped in transactions with rollback on error, UUID primary keys (libuuid), a tasks/tags many-to-many schema with foreign keys, and soft deletes. Makefile with release, debug, AddressSanitizer, Valgrind, and gdb/lldb crash-report targets; builds on Linux and macOS, with a GitHub Actions build check.
 
+* **[ROFEO Infrastructure Template](https://github.com/abdellah-darni/rofeo-ansible-template)**: An idempotent Ansible automation suite provisioning an enterprise Moodle 5.x LMS stack across Ubuntu LTS bare-metal and cloud VMs. Architected with strict process isolation: Nginx FastCGI buffer tuning, dedicated PHP 8.3-FPM worker pools, PostgreSQL 16 collation hardening (`template0`, `en_US.UTF-8`), and a dual-database Redis partitioning strategy separating volatile MUC cache from persistent session storage to prevent row-locking contention. Includes native systemd cron timers, a declarative Git plugin synchronization pipeline, and a disk-aware disaster recovery runner with offsite Azure Blob sync via `rclone`.
+
 * **[Homelab](https://github.com/abdellah-darni/home-lab)**: A Proxmox host serving my self-hosted stack as version-controlled Docker Compose behind a single Traefik v3 reverse proxy. Dual-provider routing pairs Docker label discovery with a watched file provider that brings non-Docker backends (Proxmox, a Jellyfin LXC) under the same TLS and middleware. Wildcard TLS via the Cloudflare DNS-01 challenge, a middleware chain enforcing LAN/Tailscale-only access with hardened security headers, and per-container capability drops and resource limits. Remote access over a Tailscale mesh, with a subnet-router LXC alongside per-VM clients. Writeup on the [blog](https://blog.darni.org/blog/architecting-modular-home-lab).
 
 
@@ -32,7 +34,7 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 ### Stack
 
-[![My stack](https://skillicons.dev/icons?i=java,spring,c,postgres,mongodb,redis,docker,kubernetes,linux,bash,githubactions)](https://skillicons.dev)
+[![My stack](https://skillicons.dev/icons?i=ansible,java,spring,c,postgres,redis,docker,kubernetes,linux,bash,githubactions)](https://skillicons.dev)
 
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/traefik.svg" height="44" alt="Traefik" />&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/proxmox.svg" height="44" alt="Proxmox" />&nbsp;
