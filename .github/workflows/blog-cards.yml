@@ -23,8 +23,8 @@ jobs:
       - name: Generate cards
         run: node .github/scripts/generate-cards.mjs
         env:
-          FEED_URL: https://blog.darni.org/rss.xml
-          SITE_LABEL: blog.darni.org
+          FEED_URL: https://darni.org/rss.xml
+          SITE_LABEL: darni.org
 
       - name: Commit changes
         run: |
