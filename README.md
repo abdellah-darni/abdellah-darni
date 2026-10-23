@@ -25,11 +25,11 @@ I write up the debugging rabbit holes I fall into, mostly so future-me remembers
 
 <!-- BLOG-CARDS:START -->
 <p>
-<a href="https://darni.org/blog/dns-surge/"><img src="assets/blog/card-1.png" width="250" alt="https://darni.org/blog/dns-surge/" /></a>
+<a href="https://darni.org/blog/monitoring-zte-f6600p-zabbix/"><img src="assets/blog/card-1.png" width="250" alt="https://darni.org/blog/monitoring-zte-f6600p-zabbix/" /></a>
 &nbsp;
-<a href="https://darni.org/blog/kiosk/"><img src="assets/blog/card-2.png" width="250" alt="https://darni.org/blog/kiosk/" /></a>
+<a href="https://darni.org/blog/dns-surge/"><img src="assets/blog/card-2.png" width="250" alt="https://darni.org/blog/dns-surge/" /></a>
 &nbsp;
-<a href="https://darni.org/blog/week-of-incidents/"><img src="assets/blog/card-3.png" width="250" alt="https://darni.org/blog/week-of-incidents/" /></a>
+<a href="https://darni.org/blog/kiosk/"><img src="assets/blog/card-3.png" width="250" alt="https://darni.org/blog/kiosk/" /></a>
 </p>
 <!-- BLOG-CARDS:END -->
 
